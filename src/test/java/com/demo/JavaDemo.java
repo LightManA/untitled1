@@ -22,8 +22,7 @@ public class JavaDemo {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy"); // todo LiMa
         LocalDate localDate = LocalDate.parse("25.03.2022", formatter);
 
-        assertEquals(DayOfWeek.FRIDAY, localDate.getDayOfWeek());
-
+        // commit 2
         assertEquals(DayOfWeek.FRIDAY, localDate.getDayOfWeek());
 
 
