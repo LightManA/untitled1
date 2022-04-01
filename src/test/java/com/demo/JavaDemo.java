@@ -24,6 +24,8 @@ public class JavaDemo {
 
         assertEquals(DayOfWeek.FRIDAY, localDate.getDayOfWeek());
 
+        assertEquals(DayOfWeek.FRIDAY, localDate.getDayOfWeek());
+
 
     }
 
